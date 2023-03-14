@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Calibri';
+}
+
+.header-block { /*this is the background color block*/
+    display: block;
+    width: 1200px;
+    height: 100px;
+    margin-left: 22px;
+    background-color: #AAE7C0;
+}
+
+.header-container { /*this is main container for header blocks*/
+    display: flex;
+    width: 1200px;
+    height: 100px; 
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo { /*this is logo element styling*/
+    display: block;
+    margin-left: 20px;
+}
+
+.pcmaster { /*this is PC MASTER word styling and alignment*/
+    display: block;
+    position: absolute;
+    margin-left: 100px;
+    color: #009DFF;
+    }
+
+    .phone { /*this is the phone element*/
+        display: block;
+        position: absolute;
+        margin-left: 900px;
+        color: #fff
+    }
+
+    .phone a {  /*hyperlinked phone number color*/
+        color: #009DFF;
+    }
+
+    .nav-container { /*this is a container for top navigation bar*/
+        display: flex;
+        position: relative;
+        width: 1200px;
+        height: 60px;
+        border-color: gray;
+        border-style: solid;
+        background-color: lightgray;
+        border-radius: 5px;        
+        align-items: center;
+        margin-left: 20px;
+        margin-top: 5px;
+        
+    }
+
+    .menu { /*this is styling for menu items*/
+        color:gray;
+        float: none;
+        justify-content: space-between;
+        justify-items: center;
+    }
+
+    li {  /*this is to make menu items horizontal*/
+        display: inline;
+        margin-left: 120px;
+    }
+    
+    a {   /*this is to make menu hyperlinks grey*/
+        color: grey;
+    }
+
+    a:hover {   /*this is to make hyperlinks change color on hover*/
+        color: #009DFF;
+    }
+
+    .banner { /*this is the banner container*/
+        display: block;
+        margin-left: 22px;
+        width: 1200px;
+        margin-top: 5px;
+    }
+
+    .text-container { /*this is container for text*/
+        display: block;
+        width: 1200px;
+        margin-left: 20px;
+        margin-top: 5px;
+        justify-content: center;
+        justify-items: center;
+        color: grey;        
+    }
+
+    .text-container h2 { /*this is styling for H2 in text container*/
+        margin-top: 25px;
+        text-align: center;
+        color: black;
+    }
+
+    .text-container p { /*this is styling for P in text container*/
+        margin-top: 1.5rem;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .icons { /*this is container for icons with laptop and desktop*/
+        display: flex;
+        width: 1200px;
+        margin-left: 30px;
+        justify-content: space-around;
+        justify-items: center;
+        margin-top: 30px;
+    }
+
+    .icons img { /*this is to activate hovering for icons images*/
+        cursor: pointer;
+    }
+
+    .service-buttons { /*this is the service buttons container*/
+        display: flex;
+        width: 1200px;
+        margin-left: 20px;
+        justify-content: space-around;
+        justify-items: center;
+        margin-top: 30px;
+    }
+
+    .btn-laptop {   /*this is laptop button*/
+        display: inline;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        padding: 1em;
+        margin-left: 22px;
+        background-color: #333333;
+        border: 1px;
+        border-color: #333333;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+
+    .btn-desktop {  /*this is desktop button*/
+        display: inline;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        padding: 1em;
+        margin-left: 22px;
+        background-color: #333333;
+        border: 1px;
+        border-color: #333333;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+
+    .service-buttons h3 {   /*this is LAPTOP and DESKTOP words styling inside the buttons*/
+        color: #009DFF;
+        font-weight: 700;
+        font-kerning: normal;
+    }
+
+    .service-buttons p {   /*this is descriptions styling inside the buttons*/
+        color: white;
+        font-weight: 400;
+        font-kerning: normal;
+    }
+
+    .footer-menu { /*this is a container for top navigation bar*/
+        display: flex;
+        position: relative;
+        width: 1200px;
+        height: 60px;
+        border-color: gray;
+        border-style: solid;
+        background-color: lightgray;
+        border-radius: 5px;        
+        align-items: center;
+        margin-left: 20px;
+        margin-top: 22px;         
+    }
+
+    .menu { /*this is styling for footer menu items*/
+        color:gray;
+        float: none;
+        justify-content: space-between;
+        justify-items: center;
+    }
+
+    li {  /*this is to make menu items horizontal*/
+        display: inline;
+        margin-left: 20px;
+        justify-items: left;
+    }
+    
+    a {   /*this is to make menu hyperlinks grey*/
+        color: grey;
+    }
+
+    a:hover {   /*this is to make hyperlinks change color on hover*/
+        color: #009DFF;
+    }
+
+    .footer-menu p {  /*this is positioning of the copyright piece on the footer menu*/
+        text-align: right;
+        margin-left: 520px;
+        color: grey;
+    }
